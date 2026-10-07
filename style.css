@@ -1,0 +1,20 @@
+body{
+    background-color: black;
+    color: white
+}
+header {
+    background: white;
+    color: black;
+    margin-left: 10px;  
+    width: 1024px;
+    height: 52px;
+    a{
+        color: black;
+        margin: 1vw;
+    }
+}
+div{
+    width: 470px;
+    height: 91px;
+    color: blue;
+}
