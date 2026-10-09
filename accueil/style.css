@@ -32,15 +32,15 @@ nav>div>a:hover {
     display: inline-block;
     color: black;
     font-weight: 1000;
-    font-style: Bold;
+    font-family: "Inter",sans-serif;
     font-size: 25px;
     line-height: 120%;
     cursor: pointer;
-    margin: 10px 100px;
+    margin: 10px 50px;
 }
 
 .liens {
-    padding: 30px 0;
+    padding: 30px 0px;
     display: inline-block;
     margin: 0 100px;
     font-style: bold;
@@ -48,8 +48,8 @@ nav>div>a:hover {
 }
 
 .recherche {
-    margin: 0 50px;
     display: inline-block;
+    margin: 0 50px;
 }
 
 .scoop {
@@ -68,25 +68,29 @@ nav>div>a:hover {
     border-radius: 10px;
     background-color: #034BFF;
     font-weight: normal;
-    font-style: inherit;
+    font-family: "Inter",sans-serif;
     font-size: 17px;
     line-height: 120%;
     text-align: center;
 }
 
-.recherche>.scoop,.buttun-highlight {
-    margin: 5px 10px;
-    white-space: nowrap;
+.recherche>.scoop,
+.buttun-highlight {
+    margin: 15px 35px;
     cursor: pointer;
 }
-main{
-    height: 1484px;
+
+main {
+    height: 1483px;
 }
-#hero{
-    height: 461px;
-    font-size: 0;
+
+#hero {
+    height: 650px;
+    /* font-size: 0; */
+    color: white;
 }
-#hero > div {
+
+#hero>div {
     display: inline-block;
 }
 
@@ -94,18 +98,123 @@ main{
     color: white;
     height: 100%;
     width: 50%;
-    background-color: blue;
 }
-#hero  .text > span{
-    display: inline-block;
-    width: 30px;
-    height: 30px;
-    border-radius: 50%;
-    background-color: white;
 
+.text>span {
+    font-family: "Inter",sans-serif;
+    font-weight: 900;
+    font-size: 50px;
 }
-.img {
-    width: 50%;
-    height: 100%;
-    background-color: aquamarine;
+
+#blue {
+    color: #034BFF;
+}
+
+#yellow {
+    color: yellowgreen;
+}
+.text>h2{
+    font-style: inherit;
+    margin: 50px 0;
+}
+
+.text>pre {
+    font-style: inherit;
+    font-size: larger;
+}
+
+#button-blue {
+    margin: 100px 20px 35px 0 ;
+    cursor: pointer;
+    padding: 10px 30px;
+    color: white;
+    border: 1px;
+    border-radius: 5px;
+    background-color: #034BFF;
+    font-family: "Inter",sans-serif;
+    font-size: 17px;
+    text-align: center;
+}
+
+#button-noir {
+    cursor: pointer;
+    padding: 10px 30px;
+    color: white;
+    border-radius: 5px;
+    background-color: #00000000;
+    font-family: "Inter",sans-serif;
+    font-size: 17px;
+    text-align: center;
+}
+
+.circle > span {
+    font-family: "Inter",sans-serif;
+    background-color: antiquewhite;
+    padding: 10px;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    text-align: center;
+}
+#AY{
+    border-radius: 50%;
+    color: black;
+    background-color: #B8C9CF;
+}
+#SM{
+    color: black;
+    background-color: #D7C3B6;
+}
+#para{
+    color: white;
+    background-color: black;
+}
+#para1{
+    color: white;
+    background-color: black;
+    margin: 130px;
+    padding: 0%;
+}
+
+.imag{
+    display: inline-block;
+    width: 49%;
+}
+.imag>img{
+    width: 110%;
+}
+
+#statistique {
+    text-align: center;
+    background-color: white;
+    padding: 20px;
+}
+
+#statistique > div {
+    border-right: solid grey 5px;
+    display: inline-block;
+    width: 23%;
+    /* vertical-align: middle; */
+}
+
+.stat-icon {
+    font-family: "Inter",sans-serif;
+    font-size: 100px;
+    color: blue;
+    margin:1px ;
+    
+}
+
+#statistique >p {
+    font-size: 14px;
+}
+
+#statistique >p> span {
+    font-size: 28px;
+    font-family: "Inter",sans-serif;
+    margin-bottom: 5px;
+}
+#number{
+    font-size: 50px;
+    font-family: "Inter",sans-serif;
 }
